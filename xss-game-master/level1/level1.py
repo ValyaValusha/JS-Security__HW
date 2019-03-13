@@ -21,7 +21,8 @@ page_footer = """
 main_page_markup = """
 <form action="" method="GET">
   <input id="query" name="query" value="Enter query here..."
-    onfocus="this.value=''">
+    onfocus="this.value=''"
+    pattern="[A-Za-z0-9]{1,}">
   <input id="button" type="submit" value="Search">
 </form>
 """
